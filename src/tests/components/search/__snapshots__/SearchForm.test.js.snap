@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <SearchForm /> should match to snapshot 1`] = `
+Array [
+  <section>
+    <h2>
+      Search Form:
+    </h2>
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        aria-label="find your hero"
+        autoComplete="off"
+        className="form__input"
+        name="search"
+        onChange={[Function]}
+        placeholder="find your hero"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn"
+      >
+        Search
+      </button>
+    </form>
+  </section>,
+  <section
+    className="section-results"
+  >
+    <h2>
+      Results: 
+    </h2>
+    <div
+      className="alert"
+    >
+      <p
+        className="alert__paragraph"
+      >
+        Search a hero!
+      </p>
+    </div>
+  </section>,
+]
+`;
+
+exports[`test in <SearchForm /> should show batman and input value have the querySrting 1`] = `
+Array [
+  <section>
+    <h2>
+      Search Form:
+    </h2>
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        aria-label="find your hero"
+        autoComplete="off"
+        className="form__input"
+        name="search"
+        onChange={[Function]}
+        placeholder="find your hero"
+        type="text"
+        value="batman"
+      />
+      <button
+        className="btn"
+      >
+        Search
+      </button>
+    </form>
+  </section>,
+  <section
+    className="section-results"
+  >
+    <h2>
+      Results: 
+    </h2>
+    <div
+      className="card"
+    >
+      <div
+        className="card-image"
+      >
+        <img
+          alt="Is a hero Batman"
+          src="assets/heroes/dc-batman.jpg"
+        />
+      </div>
+      <div
+        className="card-content"
+      >
+        Array [
+          <p
+            className="title"
+          >
+            Batman
+          </p>,
+          <p
+            className="paragraph"
+          >
+            Bruce Wayne
+          </p>,
+          <p
+            className="paragraph"
+          >
+            <span
+              className="paragraph__span"
+            >
+              Detective Comics #27
+            </span>
+          </p>,
+          <a
+            className="button"
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            See more...
+          </a>,
+        ]
+      </div>
+    </div>
+  </section>,
+]
+`;

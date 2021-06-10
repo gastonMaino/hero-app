@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <DashboardRoutes /> should match to snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav
+      className="nav"
+    >
+      <a
+        className="main-menu__brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <ul
+        className="main-menu"
+      >
+        <li
+          className="main-menu__item"
+        >
+          <a
+            aria-current="page"
+            className="main-menu__link active"
+            href="/marvel"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Marvel
+          </a>
+        </li>
+        <li
+          className="main-menu__item"
+        >
+          <a
+            aria-current={null}
+            className="main-menu__link"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+        </li>
+        <li
+          className="main-menu__item"
+        >
+          <a
+            aria-current={null}
+            className="main-menu__link"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+        <li
+          className="main-menu__item"
+        >
+          <button
+            className="main-menu__btn"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </li>
+      </ul>
+      <p
+        className="main-menu__user"
+      >
+        juan
+      </p>
+    </nav>
+  </header>,
+  <div>
+    <main
+      className="main"
+    >
+      <h1>
+        Marvel Screen
+      </h1>
+      <section
+        className="parent-card animate__animated animate__fadeIn"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Spider Man"
+              src="assets/heroes/marvel-spider.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Spider Man
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Peter Parker
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Amazing Fantasy #15
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-spider"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Captain America"
+              src="assets/heroes/marvel-captain.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Captain America
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Steve Rogers
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Captain America Comics #1
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-captain"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Iron Man"
+              src="assets/heroes/marvel-iron.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Iron Man
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Tony Stark
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Tales of Suspense #39
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-iron"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Thor"
+              src="assets/heroes/marvel-thor.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Thor
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Thor Odinson
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Journey into Myster #83
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-thor"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Hulk"
+              src="assets/heroes/marvel-hulk.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Hulk
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Bruce Banner
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  The Incredible Hulk #1
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-hulk"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Wolverine"
+              src="assets/heroes/marvel-wolverine.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Wolverine
+              </p>,
+              <p
+                className="paragraph"
+              >
+                James Howlett
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  The Incredible Hulk #180
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-wolverine"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Daredevil"
+              src="assets/heroes/marvel-daredevil.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Daredevil
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Matthew Michael Murdock
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Daredevil #1
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-daredevil"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Hawkeye"
+              src="assets/heroes/marvel-hawkeye.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Hawkeye
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Clinton Francis Barton
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  Tales of Suspense #57
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-hawkeye"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Cyclops"
+              src="assets/heroes/marvel-cyclops.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Cyclops
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Scott Summers
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  X-Men #1
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-cyclops"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-image"
+          >
+            <img
+              alt="Is a hero Silver Surfer"
+              src="assets/heroes/marvel-silver.jpg"
+            />
+          </div>
+          <div
+            className="card-content"
+          >
+            Array [
+              <p
+                className="title"
+              >
+                Silver Surfer
+              </p>,
+              <p
+                className="paragraph"
+              >
+                Norrin Radd
+              </p>,
+              <p
+                className="paragraph"
+              >
+                <span
+                  className="paragraph__span"
+                >
+                  The Fantastic Four #48
+                </span>
+              </p>,
+              <a
+                className="button"
+                href="/hero/marvel-silver"
+                onClick={[Function]}
+              >
+                See more...
+              </a>,
+            ]
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>,
+]
+`;

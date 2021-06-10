@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <SearchScreen /> should match to snapshot 1`] = `
+<article
+  className="search"
+>
+  <h1>
+    Search
+  </h1>
+  <SearchForm />
+</article>
+`;
